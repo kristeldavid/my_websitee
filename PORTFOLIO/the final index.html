@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristel | IT Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        
+        body {
+            background-color: #d81b60; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ffe4e8; /* Very Light Pink */
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 1px solid #ffb6c1;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            border: 4px solid #ff69b4;
+            object-fit: cover;
+            background-color: #fff;
+        }
+
+        h1 {
+            color: #c2185b;
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            color: #ad1457;
+            border-bottom: 2px solid #f8bbd0;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        .info-text {
+            margin: 5px 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 20px;
+        }
+
+       
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f48fb1;
+        }
+
+        li strong {
+            color: #c2185b;
+        }
+
+        
+        .task-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .task-btn {
+            display: block;
+            background-color: #fff;
+            color: #d81b60;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #f06292;
+            font-weight: bold;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .task-btn:hover {
+            background-color: #f06292;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+       
+        .footer {
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .social-link {
+            font-size: 24px;
+            color: #ad1457;
+            transition: 0.3s;
+        }
+
+        .social-link:hover {
+            color: #ff69b4;
+        }
+
+        .copyright {
+            font-size: 0.8rem;
+            color: #880e4f;
+            margin-top: 20px;
+        }
+
+        
+        @media (max-width: 768px) {
+            .main-grid { grid-template-columns: 1fr; }
+            .profile-header { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header class="card profile-header">
+            <img src="c:\Users\Administrator\Downloads\PORTFOLIO\PICS.jfif" alt="Kristel Profile" class="profile-img">
+            <div class="profile-details">
+                <h1>Kristel G. David</h1>
+                <p class="info-text"><i class="fas fa-map-marker-alt"></i> Pampanga, Philippines</p>
+                <p class="info-text"><i class="fas fa-graduation-cap"></i> BS in Information Technology</p>
+                <p class="info-text" style="font-weight: bold; color: #d81b60;">davidkristelguinto@gmail.com</p>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <section class="card">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>College:</strong>  Bachelor of Science in Information Technology(PSAU)</li>
+                    <li><strong>Senior High:</strong>  Magalang Christian Ecumenical School, INC</li>
+                    <li><strong>High School:</strong> Angeles City National Trade School</li>
+                    <li><strong>Elementary:</strong> Sta Teresita Elementary School</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>WHAT I BELIEVE IN:</h2>
+                <ul class="belief-list">
+                    <li>Leveraging technology for the benefit of others.</li>
+                    <li>Committing to lifelong learning and growth.</li>
+                    <li>Practicing ethical and responsible use of IT.</li>
+                </ul>
+            </section>
+        </div>
+       
+        <section id="projects" style="margin-top:20px;">
+    <h2>MY PROJECTS</h2>
+
+    <ul style="list-style: none; padding: 0;">
+        <li><a href="resume.html">Midterm Lab Task 1: Resume</a></li>
+        <li><a href="nested.html">Midterm Task 2: Nested List</a></li>
+        <li><a href="image.html">Midterm Task 3: Image Maps</a></li>
+        <li><a href="forms.html">Midterm Task 4: HTML Forms</a></li>
+        <li><a href="appling_css.html">Midterm Lab Task 5: Applying CSS</a></li>
+        <li><a href="display.html">Midterm Task 6: CSS Display Property</a></li>
+        <li><a href="Website.html">Midterm Task 7: Website</a></li>
+    </ul>
+</section>
+
+        <section class="card">
+            <h2>Finals</h2>
+            <ul>
+                <li><strong>Final Lab Task 1:</strong> CSS Position</li>
+                <li style="color: #888;">Final Lab Task 2: Ongoing...</li>
+                <li style="color: #888;">Final Lab Task 3: Ongoing...</li>
+            </ul>
+        </section>
+
+        <footer class="card footer">
+            <h2>Connect With Me</h2>
+            <div class="social-icons">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copyright">© 2026 Kristel David. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
